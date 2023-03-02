@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap");
+
+/*Navigationbar Started*/
+.navbar-nav {
+    width: 100%;
+    justify-content: end;
+}
+
+.links {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.links li:hover{
+    background-color: #ccc;
+    color: #00749a;
+}
+
+form button {
+    width: 130px;
+    height: 50px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px !important;
+}
+
+.navbar-nav .nav-item .active {
+    color: blue;
+}
+
+/* First Section Start  */
+.container .row .col-sm .heading {
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.container .row .col-sm .content {
+    font-family: 'Inter';
+    color: #767373;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.container .row .col-sm .button button {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.row .col-sm .image{
+    width: fit-content;
+    border: 8px solid blue;
+    border-top-right-radius: 86px;
+    border-bottom-left-radius: 86px;
+}
+.container .row .col-sm .image img      {
+    transform: translate(8%,8%);
+    height: 80%;
+}
+
+/* Service Section Start  */
+.service{
+    margin-top: 100px !important;
+    font-family: 'Poppins';
+    color: #000;
+    font-weight: 700;
+    font-size: 48px;
+}
+.service hr{
+    width: 7%;
+    border: 2px solid #00749a;
+}
+
+.card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.7s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-body .head .card-title{
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-body .text{
+    font-family: 'Inter';
+    color: #767373;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* Portfolio Section Start  */
+.port-box .container .card{
+    width: 409px !important;    
+}
+.port-box .container .card .card-body .title .name{
+    font-family: 'Poppins';
+    color: #0B7C4F;
+    font-weight: 500;
+    font-size: 20px;   
+}
+.port-box .container .card .card-body .title .date{
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.port-box .container .card .card-body .content{
+    font-family: 'Inter';
+    color: #767373;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* First footer Start  */
+.footer1{
+    box-sizing: border-box;
+    padding: 160px 0;
+    background-color: #00749A;
+    color: white;
+}
+.footer1 .head{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+}
+.footer1 .content{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.footer1 .btn{
+    width: 197px ;
+    height: 59px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Second footer Start  */
+.footer2{
+    box-sizing: border-box;
+    padding: 160px 0;
+    background-color: black;
+    color: white;
+}
+.footer2 .container .row .col .frm-heading{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 36px;
+}
+.footer2 .container .row .col .form .input input{
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+}
+.footer2 .container .row .col .form .btn{
+    width: 222px;
+    height: 70px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+}

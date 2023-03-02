@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');  
+.d-flex .btn {
+    width: 50%;
+    border-radius: 30px;
+}
+body{
+    counter-reset: count;
+}
+.mainTable tbody tr td:first-child::before{
+    counter-increment: count;
+    content: counter(count);
+}
+@media only screen and (max-width: 890px) {
+    .mainTable td{
+        display: block;
+        text-align: center;
+    }
+    .mainTable tr{
+        background-color: #dbebf0;
+    }
+    .mainTable th{
+        display: none;
+    }
+    .timer{
+        justify-content: center !important;
+        margin-top: 20px
+    }
+
+}
+
+.mainTable{
+    padding: 20px;
+    border: 1px solid rgb(214, 180, 180) ;
+    border-collapse: separate;
+    border-spacing: 0 15px !important;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px grey;
+}
+.mainTable tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+.mainTable tbody tr:nth-child(odd) {
+    background-color: rgb(247, 237, 238);
+}
+
+.form-control{
+    border-radius: 50px;
+}
+
+.timer{
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: end;
+}
+.timming{
+    font-family: Lobster;  
+    letter-spacing: 8px;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 5px 0 5px ;
+    background-color: #34495E;
+    color: #fff;
+}
+.textMinute{
+    border-radius: 0 0 10px 10px;
+    padding: 0 5px 5px 5px ;
+    background-color: #2C3E50;
+    color: #abd485;
+}
+
+.flex-column{
+    box-sizing: border-box;
+    width: 90px;
+}
+.loading{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	z-index: 9999;
+    text-align: center;
+    background-color: rgba(148, 211, 204, 0.7);
+}

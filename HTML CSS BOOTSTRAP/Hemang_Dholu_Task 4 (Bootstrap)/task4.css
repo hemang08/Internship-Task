@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Inter:wght@500&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins';
+}
+
+.navbar-collapse .navbar-nav {
+    width: 100%;
+    justify-content: end;
+}
+
+/* .container{
+    max-width: 90%;
+} */
+.navbar .container .navbar-brand h1 {
+    font-family: 'Arbutus Slab';
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+}
+.icn1{
+    cursor: pointer;
+}
+/* Header End  */
+/* First Section start  */
+
+.first-sec .container .row .col-sm-12 .content .about {
+    color: blue;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.first-sec .container .row .col-sm-12 .content .head {
+    color: black;
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.first-sec .container .row .col-sm-12 .content .text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+/* First Section end  */
+
+/* Second Section start  */
+.second-sec .container .head .title {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.third-sec .container .head {
+    font-weight: 400;
+    font-size: 32px;
+    color: #000054;
+}
+
+.form .row .col-md-6 input,
+.form .row .col-md-12 input,
+textarea,
+.frm-btn input{
+    height: 150%;
+}
+
+/* .col-lg-4 {
+    margin-top: 4%;
+  }
+  
+  @media only screen and (max-width: 990px) {
+    .col-lg-4 {
+      margin-top: -3%;
+    }
+  } */
+
+/* Footer Start  */
+.footer .container .row .col-sm-6 .head {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer .container .row .col-sm-6 .text {
+    max-width: 80%;
+    color: #737373;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: blue;
+}
+
+.footer .container .row .col-sm-6 .title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer .container .row .col-sm-6 .text div a {
+    color: #737373;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer .container .row .col-sm-6 .text div a:hover {
+    color: blue;
+}
+@media only screen and (max-width: 574px) {
+    .footer .container .row {
+      text-align: center;
+    }
+  }
+
+  .first-row-col{
+    margin: 0%;
+    margin-left: 0.5%;
+    margin-right: 2.5%;
+    /* width:fit-content; */
+    border-radius: 16px;
+    background-color: #DDF3FF;
+  }
+  @media only screen and (max-width: 768px) {
+    .first-row-col{
+      width: 75%;
+    }
+  }
+  @media only screen and (max-width: 535px) {
+    .first-row-col{
+      width: fit-content;
+    }
+  }
+  .first-row-col .right-side{
+   margin-top: -8%;
+  }

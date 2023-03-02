@@ -1,0 +1,157 @@
+body{
+    background: linear-gradient(270deg, #548175, #3dca49, #ca3dc5);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#notes {
+    background-color: #ffffff;
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px
+}
+.addbtn{
+    text-align: end;
+}
+
+.mainTable{
+    border-collapse: separate;
+    border-spacing: 0 15px !important;
+    font-size: 20px;
+}
+@media only screen and (max-width: 890px) {
+    .mainTable td{
+        display: block;
+        text-align: center;
+    }
+    .mainTable tr{
+        background-color: #dbebf0;
+    }
+    .mainTable th{
+        display: none;
+    }
+    tr td:first-child{border: 0 !important; padding: auto !important;}
+    tr td:last-child{ border: 0; }
+
+    #finalTable ,#resultTable{ border: 0;}
+      #finalTable thead , #resultTable thead{ display: none;}
+  
+      #finalTable tr , #resultTable tr{
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+        background-color: #96becc;
+      }
+      #finalTable td, #resultTable td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px solid #ccc;
+      }
+      #finalTable td:last-child , #resultTable td:last-child {
+        border-bottom: 0;
+      }
+      #finalTable td , #resultTable td { font-size: 15px;font-weight: 500;}
+      #finalTable td:before, #resultTable td:before{
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      #finalTable tr td:first-child::before,  #resultTable tr td:first-child::before  {content: "ID";}
+      #finalTable tr td:nth-child(2)::before, #resultTable tr td:nth-child(2)::before {content: "Name";}
+      #finalTable tr td:nth-child(3)::before {content: "Subject";}
+      #finalTable tr td:nth-child(4)::before { content: "Mark";}
+      #resultTable tr td:nth-child(3)::before {content: "Percentage";}
+}
+@media only screen and (max-width: 767px) {
+    .addbtn{
+        margin-top: 10px;
+        text-align: start;
+    }
+    #sortDrop,#sortingOrder{
+        margin-top: 3%;
+    }
+}
+tr td:first-child, tr th:first-child{ border-top-left-radius: 40px;  border-bottom-left-radius: 40px; padding-left: 30px;}
+tr td:last-child, tr th:last-child  { border-bottom-right-radius: 40px; }
+
+.panel .panel-body .table thead tr th {
+    color: black;
+
+}
+
+.panel .panel-body .table tbody tr td {
+    color: black;
+    border: none;
+}
+
+tr:has(.failStudent){
+    background-color: red !important;
+
+}
+
+.searchBox input {
+    width: 100% !important;
+    padding: 0 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    color: #333;
+    height: 40px;
+}
+
+.panel select {
+    width: 100%;
+    border-radius: 50px;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    color: #531331;
+}
+
+.panel select option {
+    font-size: 20px;
+    font-weight: 400;
+    color: #211f25;
+}
+
+#tableBody tr td button {
+    border-radius: 50px !important;
+    width: 100%;
+}
+
+.sortbutton {
+    background-color: inherit;
+    border: none;
+}
+
+.sortbutton:active {
+    background-color: #0083B0;
+}
+@media print {
+    .nonPrint, .printBtn{
+        display: none;
+    }
+    #finalTableBody {page-break-after: always;}
+  }

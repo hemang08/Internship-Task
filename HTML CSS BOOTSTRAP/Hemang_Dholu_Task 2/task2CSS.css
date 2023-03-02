@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap");
+
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+/* Header Start*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.link ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 25px;
+}
+.link ul li {
+  padding: 10px;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li a:hover, ul li a:active {
+  color: #b94242;
+}
+.link ul li button {
+  width: 148px;
+  height: 59px;
+  background: #05427b;
+  border-radius: 9px;
+  color: #fff;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 20px;
+}
+.link ul li button:hover {
+  background-color: #f2e4e6;
+  color: #0335fc;
+  border: 1px solid black;
+}
+/*Header End*/
+
+/*Display Content Start*/
+.content {
+  display: flex;
+  align-items: center;
+  max-width: 95%;
+}
+.content .text .topic {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+}
+.content .text .discription {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  color: #767373;
+  margin-top: 25px;
+}
+.content .text .btn button {
+  width: 197px;
+  height: 59px;
+  background-color: #05427b;
+  color: #fff;
+  margin-top: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 9px;
+}
+.content .text .btn button:hover {
+  background-color: #f2e4e6;
+  color: #0335fc;
+  border: 1px solid black;
+}
+.content .image {
+  border: 8px solid #0335fc;
+  border-top-right-radius: 88px;
+  border-bottom-left-radius: 88px;
+}
+.content .image img {
+  transform: translate(10%, 10%);
+}
+
+/* Services Section Start */
+.services p {
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: auto;
+}
+.line {
+  width: 9%;
+  margin-top: 4px;
+  border: 3px solid #00749a;
+  margin-bottom: 2%;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box {
+  margin-top: 1px;
+  border: 1px solid #00749a;
+  width: 381px;
+  height: 244px;
+  border-radius: 3%;
+  margin: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 20px 20px darkgray;
+}
+.box:hover{
+  box-shadow: 20px 20px 20px rgb(146, 146, 182);
+  border: 3px solid rgb(128, 117, 117); 
+}
+.bottom-box {
+  margin-top: 1px;
+  border: 1px solid #00749a;
+  width: 381px;
+  height: 300px;
+  border-radius: 3%;
+  margin: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 20px 20px darkgray;
+}
+.bottom-box:hover{
+  box-shadow: 20px 20px 20px rgb(146, 146, 182);
+  border: 3px solid rgb(128, 117, 117); 
+}
+.inside {
+  padding: 10%;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+}
+.inside .heading {
+  display: flex;
+  align-items: center;
+}
+.inside .heading label {
+  margin: 20px;
+  font-size: 20px;
+}
+.inside .about {
+  margin: 15px;
+  font-family: "Inter";
+  color: #767373;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.bottom-heading{
+  text-align: center;
+}
+.bottom-heading div{
+  margin-top: 20px;
+}
+
+
+/* Services End*/
+
+/* Portfolio Section Start */
+.portmainbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.rectbox {
+  margin-top: 2%;
+  width: 409px;
+  box-shadow: 0px 20px 20px darkgray;
+  margin: 2%;
+  /* border: 1px solid black; */
+  margin-bottom: 5%;
+}
+.rectbox:hover{
+  box-shadow: 20px 20px 20px rgb(146, 146, 182);
+  border: 3px solid rgb(128, 117, 117);
+}
+
+.portimg img {
+  height: 70%;
+}
+.boxcontent {
+  padding: 0 5% 5% 5%;
+}
+.boxcontent .title {
+  color: #0b7c4f;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.boxcontent .title .date {
+  color: #000;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+}
+.boxcontent .theory {
+  margin-top: 3%;
+  font-family: "Inter";
+  color: #767373;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*Portfolio End*/
+
+/*1st Footer start-Blue background Footer*/
+.footer1 {
+  box-sizing: border-box;
+  height: 521px;
+  width: 100%;
+  background-color: #00749a;
+  text-align: center;
+  padding-top: 10%;
+}
+.footer1 .xyz {
+  width: 60%;
+  margin: 0 auto;
+}
+.footer1 .head {
+  font-family: "Poppins";
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+}
+.footer1 .theory {
+  font-family: "Inter";
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.footer1 .btn button {
+  width: 197px;
+  height: 59px;
+  background-color: #fff;
+  color: #00749a;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.footer1 .btn button:hover {
+    background-color: #ffcccc;
+    color: #0335fc;
+    border: 1px solid black;
+  }
+
+  /*Footer 1 Ends*/
+
+  /*Footer2 starts - Black background footer*/
+.footer2 {
+  box-sizing: border-box;
+  height: 586px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer2 .leftside {
+  color: #fff;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 30%;
+}
+.footer2 .leftside .text {
+  padding-top: 15%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.footer2 .rightside {
+  color: #fff;
+  text-align: center;
+}
+.footer2 .rightside .subcribe {
+  font-family: "Inter";
+  color: #fff;
+  font-weight: 500;
+  font-size: 36px;
+}
+.footer2 .xyz {
+  width: 120%;
+}
+.footer2 .rightside .input input {
+  width: 100%;
+  padding: 15px;
+  margin: 8% 0;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+}
+.rightside .btn {
+  width: 222px;
+  height: 70px;
+  border-radius: 20px;
+  font-family: "Inter";
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.rightside .btn:hover {
+  background-color: #ffcccc;
+  color: #0335fc;
+  border: 1px solid black;
+}
+/*Footer 2 end*/
+
+/*Page end*/

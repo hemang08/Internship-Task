@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(270deg, #a8dbce, #acd07c, #96a187);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#notes {
+    background-color: #ffffff;
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px
+}
+.refresh{
+    text-align: end;
+}
+
+.inputBox {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border: 2px solid #aaaaaa;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    #removeBtn {
+      margin-top: 3%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .refresh{
+        margin-top: 3%;
+        text-align: left;
+    }
+  }

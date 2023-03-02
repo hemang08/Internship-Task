@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link href="BootStrap/bootstrap.min.css" media="all" rel="stylesheet">
+    <script src="BootStrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="myStyle.css">
+    <title>Task 1(JavaScript)</title>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5" id="notes">
+        <h1 id="register" class="text-center">Daily Task</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <button class="btn btn-outline-dark btn-grad" id="addBtn" onclick="action(this,1)">Add New Task</button>
+            </div>
+            <div class="col-sm-12 col-md-6 refresh">
+                <button class="btn btn-outline-dark btn-grad " id="refresh" onclick="refresh()">Refresh</button>
+            </div>
+        </div>
+        <div id="inputField">
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

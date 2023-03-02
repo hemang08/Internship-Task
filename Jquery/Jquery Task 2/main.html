@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="BootStrap/bootstrap.min.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="jquery_task1.css">
+    <script src="./Jquery/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Jquery Task 1</title>
+</head>
+
+<body class="bg-light">
+    
+    <div class="loading d-none">
+        <img src="coffee.gif" alt="">
+    </div>
+    <div class="container mainDiv mt-5">
+        <div class="heading text-center">
+            <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">STUDENT MARKS</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-2 align-items-end align-self-end col-sm-12">
+                <button class="btn btn-outline-dark btn-grad" id="addBtn">Add New Task</button>
+            </div>
+
+            <div class="timer col-md-10 col-sm-12 d-flex gap-2">
+                <div class="d-flex flex-column text-center">
+                    <div class="minutes timming">--</div>
+                    <div class="textMinute">Minutes</div>
+                </div>
+                <div class="d-flex flex-column text-center">
+                    <div class="seconds timming">--</div>
+                    <div class="textMinute">Seconds</div>
+                </div>
+            </div>
+        </div>
+        <table class="table mt-3  table-borderless mainTable">
+            <thead class="bg-info text-white">
+                <tr>
+                    <th>Number</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Mark</th>
+                    <th>Action</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Enter Name"></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Subject Name"></td>
+                    <td><input class="form-control markField" type="text" placeholder="Mark"></td>
+                    <td class="d-flex justify-content-evenly">
+                        <button class="btn btn-outline-success">Pass</button>
+                        <button class="btn btn-outline-danger">Fail</button>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Enter Name"></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Subject Name"></td>
+                    <td><input class="form-control markField" type="text" placeholder="Mark"></td>
+                    <td class="d-flex justify-content-evenly">
+                        <button class="btn btn-outline-success">Pass</button>
+                        <button class="btn btn-outline-danger">Fail</button>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Enter Name"></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Subject Name"></td>
+                    <td><input class="form-control markField" type="text" placeholder="Mark"></td>
+                    <td class="d-flex justify-content-evenly">
+                        <button class="btn btn-outline-success">Pass</button>
+                        <button class="btn btn-outline-danger">Fail</button>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Enter Name"></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Subject Name"></td>
+                    <td><input class="form-control markField" type="text" placeholder="Mark"></td>
+                    <td class="d-flex justify-content-evenly">
+                        <button class="btn btn-outline-success">Pass</button>
+                        <button class="btn btn-outline-danger">Fail</button>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Enter Name"></td>
+                    <td><input class="form-control nameField" type="text" placeholder="Subject Name"></td>
+                    <td><input class="form-control markField" type="text" placeholder="Mark"></td>
+                    <td class="d-flex justify-content-evenly">
+                        <button class="btn btn-outline-success">Pass</button>
+                        <button class="btn btn-outline-danger">Fail</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

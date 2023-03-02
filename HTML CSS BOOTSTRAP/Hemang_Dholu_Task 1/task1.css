@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.logo {
+    height: 65px;
+    width: 225px;
+}
+.navigationLink ul {
+    margin-top: 0px;
+    display: flex;
+    font-size: 25px;
+    margin-left: 412px;
+    font-family: 'Inter';
+    font-style: normal;
+    list-style: none;
+}
+.link1{
+    margin-right: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+
+button{
+    background-color: #05427B;
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 148px;
+    height: 59px;
+    border-radius: 10px;
+    transition:  1s;
+
+}
+button:hover{
+    background-color: #FFFFFF;
+    color: #05427B;
+}
+
+.header {
+    margin-top: 38px;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.slidebar{
+    height: 768px;
+    width: 432px;
+    background-color: #FFCCCC;
+    margin-left: 300px;
+    transition: transform 0.8s;
+}
+.slidebar:hover{
+    transform: rotateY(360deg);
+}
+.sections, .inSection {
+    display:flex;
+}
+.section2{
+    width: 876px;
+    height: 403px;
+    background-color: #BEBEBE;
+    margin-left: 12px;
+    margin-right: 300px;
+    transition: transform 0.8s;
+}
+.section2:hover{
+    transform: rotatex(360deg);
+}
+.section3{
+    width: 543px;
+    height: 353px;
+    background-color: #BEBEBE;
+    margin-left: 12px;
+    margin-top: 12px;
+    transition: transform 0.8s;
+
+}
+.section3:hover{
+    transform: rotateX(360deg);
+}
+.section4{
+    width: 321px;
+    height: 353px;
+    background-color: #BEBEBE;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-right: 300px;
+    margin-bottom: 112px;
+    transition: transform 0.8s;
+}
+.section4:hover{
+    transform: rotateX(360deg);
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #735A43;
+    
+    height: 102px;
+}
+.text{
+    float: left;
+    padding-left: 299px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+.section2,.section3,.section4,.slidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.socialLinks a{
+    margin-left: 20px;
+}
+.fa{
+    color: white;
+    font-size: 25px !important;
+}
+.socialLinks{
+    padding-left: 677px;
+}
+.fa:hover{   
+    color: antiquewhite;
+}
+.line{
+    position: relative;
+}
+
+.line::after{
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 0;
+    transition: 0.4s ease-out;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+
+.line:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Inter:wght@500&family=Nunito+Sans:wght@600&family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Inter:wght@500&family=Montserrat&family=Nunito+Sans:wght@600&family=Poppins:wght@500&display=swap');
+
+.sidebar {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg,
+      rgba(101, 144, 255, 0.43) -6.06%,
+      rgba(126, 154, 255, 0.47) 21.33%,
+      rgba(197, 199, 255, 0.3) 50.12%,
+      rgba(187, 176, 255, 0.409659) 75.6%,
+      rgba(219, 202, 255, 0.96) 103.99%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+
+  display: block;
+  transition: 0.3s;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 30px;
+  color: black;
+}
+
+#side-text {
+  color: #1e2875;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.8348px;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.side-text {
+  color: black;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.openbtn {
+  
+
+  color: white;
+  margin-top: 100px;
+  margin-left: 15px;
+
+  /* margin: 10px 15px; */
+  border: none;
+}
+body{
+  background-color: #E6E6E6 !important;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  /* height: 10; */
+  background-color: #E6E6E6;
+
+  border-left-width: calc(100%-300px);
+}
+
+.sidebar .img {
+  margin-top: 1%;
+  margin-left: 20px;
+}
+
+.menu .list-unstyled .d-flex {
+  align-items: center;
+
+}
+
+.menu .list-unstyled .d-flex .side-text {
+  margin-left: 20px;
+}
+
+.openbtn {
+  border-radius: 50%;
+}
+
+.first-half {
+  background-color: white;
+  font-family: 'Montserrat';
+}
+.first-half .row .col-md-9{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.second-half .content{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+table{
+  font-family: 'Poppins';
+  
+  font-size: 15px;
+}
+
+.first-table {
+  background: linear-gradient(91.37deg, rgba(101, 144, 255, 0.43) 13.98%, rgba(126, 154, 255, 0.47) 34.04%, rgba(197, 199, 255, 0.72) 55.12%, rgba(187, 176, 255, 0.409659) 73.79%, rgba(219, 202, 255, 0.96) 94.58%);
+}
+
+.side-table-head {
+  background: linear-gradient(91.37deg, rgba(101, 144, 255, 0.43) 13.98%, rgba(126, 154, 255, 0.47) 34.04%, rgba(197, 199, 255, 0.72) 55.12%, rgba(187, 176, 255, 0.409659) 73.79%, rgba(219, 202, 255, 0.96) 94.58%);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.side-table-body {
+  padding: 10px;
+}
+
+.side-table-text {
+  margin-left: 5%;
+  ;
+}
+
+#name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#position {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #5630D3;
+}
+
+.content-side-table {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.day {
+  font-family: 'Poppins';
+  color: #808080;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.year {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.comments .date {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  margin-left: 30px;
+}
+
+.comments .image {
+  margin-top: 5%;
+  margin-left: -30px;
+}
+.name-com{
+  padding-left: 5%;
+}
+.name-com .name {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.name-com .comment {
+  font-family: 'Poppins';
+ color: #272830;
+  font-weight: 300;
+  font-size: 13px;
+}
+.icon a{
+  text-decoration: none;
+  color: black;
+}
+.tag{
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.tag span img:hover{
+  background-color: lightseagreen ;
+}
+
+
+.list-unstyled .d-flex{
+  transition: background-color 0.1s ease-in-out;
+}
+.list-unstyled .d-flex:hover{
+  background-color: beige;
+}
+.comments:hover,.content-side-table:hover{
+  background-color: #E6E6E6
+}
+.first-half:hover{
+background-color: #e2d4d4 !important;
+}
